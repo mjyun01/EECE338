@@ -3,6 +3,7 @@ import scipy.io as sio
 import scipy.io.wavfile
 import matplotlib.pyplot as plt
 import argparse 
+from scipy import fftpack
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--filename', required=False, default='filename.wav')
